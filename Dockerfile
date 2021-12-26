@@ -4,5 +4,5 @@ COPY . /tmp
 
 WORKDIR /tmp/
 
-RUN mvn package -Dmaven.test.skip=true --settings settings.xml
+RUN mvn package -Dmaven.test.skip=true 
 
